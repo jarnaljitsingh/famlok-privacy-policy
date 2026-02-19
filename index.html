@@ -3,24 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Famlok - Privacy Policy</title>
+<title>Famlok - Family Safety App</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#333;background:#f8f9fa;padding:20px}
-.container{max-width:800px;margin:0 auto;background:#fff;border-radius:12px;padding:40px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
-h1{color:#1a73e8;font-size:28px;margin-bottom:8px}
-h2{color:#1a73e8;font-size:20px;margin:28px 0 12px;border-bottom:2px solid #e8eaed;padding-bottom:8px}
-p{margin:8px 0;color:#444}
-ul{margin:8px 0 8px 24px}
-li{margin:4px 0;color:#444}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#333;background:#f8f9fa}
+
+/* ===== HOMEPAGE SECTION ===== */
+.hero{background:linear-gradient(135deg,#c9a8f0,#89b4f8);padding:60px 20px;text-align:center;color:#fff}
+.hero-inner{max-width:600px;margin:0 auto}
+.logo{width:100px;height:100px;margin:0 auto 20px;background:rgba(255,255,255,0.25);border-radius:24px;display:flex;align-items:center;justify-content:center;font-size:44px}
+.hero h1{font-size:36px;margin-bottom:4px;color:#fff}
+.hero .tagline{font-size:17px;color:rgba(255,255,255,0.9);margin-bottom:20px}
+.hero .description{font-size:15px;color:rgba(255,255,255,0.95);text-align:center;line-height:1.7;margin-bottom:28px}
+.features-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:left;max-width:500px;margin:0 auto 28px}
+.feature{background:rgba(255,255,255,0.2);border-radius:10px;padding:12px 14px;display:flex;align-items:center;gap:10px;font-size:14px;color:#fff}
+.feature span{font-size:20px}
+.hero-links{margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.3)}
+.hero-links a{color:#fff;text-decoration:none;margin:0 12px;font-size:14px;opacity:0.9}
+.hero-links a:hover{text-decoration:underline;opacity:1}
+.hero-contact{color:rgba(255,255,255,0.8);font-size:13px;margin-top:14px}
+.hero-contact a{color:#fff}
+
+/* ===== PRIVACY POLICY SECTION ===== */
+.container{max-width:800px;margin:0 auto;background:#fff;border-radius:12px;padding:40px;box-shadow:0 2px 10px rgba(0,0,0,0.1);margin-top:40px;margin-bottom:40px}
+.container h1{color:#1a73e8;font-size:28px;margin-bottom:8px}
+.container h2{color:#1a73e8;font-size:20px;margin:28px 0 12px;border-bottom:2px solid #e8eaed;padding-bottom:8px}
+.container p{margin:8px 0;color:#444}
+.container ul{margin:8px 0 8px 24px}
+.container li{margin:4px 0;color:#444}
 .subtitle{color:#666;font-size:14px;margin-bottom:24px}
 .contact{background:#e8f0fe;padding:16px;border-radius:8px;margin-top:24px}
 .contact a{color:#1a73e8}
 .updated{color:#888;font-size:13px;margin-top:20px;text-align:center}
+
+@media(max-width:500px){
+.features-grid{grid-template-columns:1fr}
+.hero{padding:40px 16px}
+.container{margin:20px 12px;padding:24px}
+}
 </style>
 </head>
 <body>
-<div class="container">
+
+<!-- ===== HOMEPAGE ===== -->
+<div class="hero">
+<div class="hero-inner">
+<div class="logo">📍</div>
+<h1>Famlok</h1>
+<p class="tagline">Family Safety App</p>
+<p class="description">Famlok is a family safety app that helps you stay connected and informed about the safety of your loved ones. Track real-time locations, receive crime rate alerts for your area, get local news updates, and send emergency SOS alerts — all within your trusted family circle.</p>
+<div class="features-grid">
+<div class="feature"><span>📍</span> Real-time location sharing</div>
+<div class="feature"><span>🛡️</span> AI crime rate analysis</div>
+<div class="feature"><span>📰</span> Local news &amp; safety alerts</div>
+<div class="feature"><span>🚨</span> Emergency SOS alerts</div>
+<div class="feature"><span>🚗</span> Drive tracking &amp; speed alerts</div>
+<div class="feature"><span>👨‍👩‍👧‍👦</span> Private family circles</div>
+<div class="feature"><span>💬</span> Quick family messaging</div>
+<div class="feature"><span>📌</span> Saved places &amp; geofencing</div>
+</div>
+<div class="hero-links">
+<a href="#privacy-policy">Privacy Policy</a>
+<a href="#privacy-policy">Terms of Service</a>
+</div>
+<p class="hero-contact">Contact: <a href="mailto:famlok.official@gmail.com">famlok.official@gmail.com</a></p>
+</div>
+</div>
+
+<!-- ===== PRIVACY POLICY ===== -->
+<div class="container" id="privacy-policy">
 <h1>Famlok Privacy Policy</h1>
 <p class="subtitle">Family GPS Safety App</p>
 <h2>1. Introduction</h2>
@@ -77,9 +128,10 @@ li{margin:4px 0;color:#444}
 <h2>11. Contact Us</h2>
 <div class="contact">
 <p>If you have any questions about this privacy policy or our data practices, please contact us at:</p>
-<p><strong>Email:</strong> <a href="mailto:support@famlok.online">support@famlok.online</a></p>
+<p><strong>Email:</strong> <a href="mailto:famlok.official@gmail.com">famlok.official@gmail.com</a></p>
 </div>
-<p class="updated">Last Updated: February 13, 2026</p>
+<p class="updated">Last Updated: February 19, 2026</p>
 </div>
+
 </body>
 </html>
